@@ -15,8 +15,9 @@ public class FrmPrincipal extends javax.swing.JFrame {
     
     private void cerrar(){String botones [] = { "Cerrar" , "Cancelar"};
         int respuesta = JOptionPane.showOptionDialog(this,"Deseas cerrar el programa", "Confirmacion", 0, 0, null, botones, this);
-        if (respuesta== JOptionPane.YES_OPTION);
+        if (respuesta== JOptionPane.YES_OPTION){
         this.dispose();
+        }
     }
 
     /**
